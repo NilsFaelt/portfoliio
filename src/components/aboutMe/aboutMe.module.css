@@ -3,8 +3,10 @@
     flex-direction: row;
     gap:3vw;
     margin: 0 auto;
+    margin-bottom: 5vh;
     margin-top: 5vh;
-    height: 80vh;
+    height: auto;
+    padding-bottom: 15vh;
     width: 90vw;
     border-radius: 5px;
     box-shadow: 10px 10px 10px;
@@ -37,8 +39,13 @@
     color: white;
     font-family: 'Oswald', sans-serif;
 }
+.hr{
+ margin-right: 2vw;
+ margin-left: 2vw;
+ margin-top: 2vh;
+}
 
 @keyframes shadow {
     0%{box-shadow: 0px 0px 0px black; background-color: rgba(0, 0, 0, 0); opacity: 0;}
-    100%{box-shadow: 10px 10px 10px black;    background-color: rgba(0, 0, 0, 0.814); opacity: 1;}
+    100%{box-shadow: 10px 10px 10px black;    background-color: rgba(0, 0, 0, 0.627); opacity: 1;}
   }

@@ -27,6 +27,7 @@ const AboutMe = () => {
           Im really hungry to learn and love all different kind of challenges,
           Especially if they keep you awake all night.
         </p>
+        <hr className={Styles.hr} />
         <h3 className={Styles.title}>Peronal Me:</h3>
         <p className={Styles.text}>
           Im born in Gothenburg, but raised most of my youth in Hälsingland, and
@@ -40,12 +41,14 @@ const AboutMe = () => {
           skateborder. Im super social and have a huge working moral, i do my
           part, no question.
         </p>
+        <hr className={Styles.hr} />
         <h3 className={Styles.title}>If?</h3>
         <p className={Styles.text}>
           I do have some projects that im currently working on that you can see
           under Projects, but i would love to get a challenge from you. So
           please ask me to create something on your request, as a work sample.
         </p>
+        <hr className={Styles.hr} />
       </div>
     </div>
   );
