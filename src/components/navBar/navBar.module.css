@@ -1,0 +1,35 @@
+.container{
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    width: 90vw;
+    border-radius: 5px;
+    animation: shadow;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    margin-top: 2vh;
+
+}
+.ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+.li{
+    color: white;
+}
+.li:hover{
+    cursor: pointer;
+    color: yellow;
+
+}
+@keyframes shadow {
+    0%{box-shadow: 0px 0px 0px black; background-color: rgba(0, 0, 0, 0); opacity: 0;}
+    100%{box-shadow: 10px 10px 10px black;    background-color: rgba(0, 0, 0, 0.814); opacity: 1;}
+  }
