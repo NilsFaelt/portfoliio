@@ -32,7 +32,7 @@
 
 .infoDiv{
     position: relative;
-    top: -60vh;
+    bottom: 60vh;
     left: 10vw;
     width: 25vw;
     height: 40vh;
@@ -52,7 +52,7 @@
     flex-direction: column;
     position: relative;
     z-index: 2;
-    top: -100vh;
+    bottom: 100vh;
     left: 60vw;
     width: 25vw;
     height: 40vh;
