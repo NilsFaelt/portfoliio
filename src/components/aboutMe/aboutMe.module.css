@@ -59,15 +59,16 @@
     font-size: calc(12px + 0.5vw);
 }
 .linkToogleText{
+    transition: 2s;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.676);
     border:  1px solid white;
-    margin-top: 2vh;
+    margin-top: 4vh;
     padding: 2vw;
     color: white;
     font-family: 'Oswald', sans-serif;
-
 }
+
 
 @keyframes shadow {
     0%{box-shadow: 0px 0px 0px black; background-color: rgba(0, 0, 0, 0); opacity: 0;}

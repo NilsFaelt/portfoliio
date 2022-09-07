@@ -46,9 +46,14 @@ const Project: React.FC<Props> = ({
         <h4 className={Styles.infoTitle}>Info:</h4>
         <p className={Styles.textInfo}>{info}</p>
 
-        <a className={Styles.githubLink} target='_blank' href={githubLink}>
-          Github Link
-        </a>
+        <div className={Styles.linkDiv}>
+          <a className={Styles.githubLink} target='_blank' href={githubLink}>
+            Github Link
+          </a>
+          <a className={Styles.githubLink} target='_blank' href={link}>
+            Netlify Link
+          </a>
+        </div>
       </div>
       <div
         onMouseOver={() => setToogleTools(false)}

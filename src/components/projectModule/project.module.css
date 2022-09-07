@@ -26,7 +26,8 @@ img:hover{
 }
 
 .textInfo{
-    font-family: 'Oswald', sans-serif;
+    margin-top: 10vh;
+    /* font-family: 'Oswald', sans-serif; */
     color: white;
     margin: 1vw;
 }
@@ -108,7 +109,12 @@ img:hover{
     color: white;
     text-decoration: underline purple 1px;
 }
-
+.linkDiv{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
 
 @keyframes shadow {
     0%{box-shadow: 0px 0px 0px black; background-color: rgba(0, 0, 0, 0); opacity: 0;}
