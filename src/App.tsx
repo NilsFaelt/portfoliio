@@ -40,15 +40,15 @@ function App() {
           furrency={theDorker}
           link={"https://melodious-speculoos-2fc810.netlify.app/"}
           title={"The New Dorker"}
-          info={
-            "This is a fictional news site, the purpose is tom mimic the-new-york-time/the daily mail ish."
-          }
+          info={`This is a fictional news site, the purpose is tom mimic sites as the-new-york-time or the daily mail. All the annoying pop-ups is made with pirpose to make it feel like a free news-site filled with commericial`}
           workedWith={[
             "Javascriot",
             "Typescript",
             "Axios",
             "HeroIcons",
             "Material-ui",
+            "Firebase",
+            "Email-js",
           ]}
         />
       ) : null}

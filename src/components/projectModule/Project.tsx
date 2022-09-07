@@ -41,7 +41,7 @@ const Project: React.FC<Props> = ({
         className={toogleInfo ? Styles.infoDiv : Styles.infoDivDarker}
       >
         <h4 className={Styles.infoTitle}>Info:</h4>
-        <p className={Styles.text}>{info}</p>
+        <p className={Styles.textInfo}>{info}</p>
       </div>
       <div
         onMouseOver={() => setToogleTools(false)}

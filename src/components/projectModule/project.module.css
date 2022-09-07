@@ -18,13 +18,18 @@
     box-shadow: 10px 10px 10px black;
 
 }
+.textInfo{
+    font-size: calc(8px + 0.3vw);
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin: 1vw;
+}
 .text{
     font-size: calc(8px + 0.5vw);
     font-family: 'Oswald', sans-serif;
     color: white;
 }
 .title{
-    margin-top: 2vh;
     font-size: calc(20px + 0.5vw);
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -33,6 +38,7 @@
 }
 
 .infoDiv{
+ margin-top: 2vh;
     transition: 2s;
     position: relative;
     bottom: 60vh;
@@ -55,7 +61,7 @@
     background-color: rgba(0, 0, 0, 0.781)
 }
 .infoTitle{
-    margin-top: 2vh;
+
     font-size: calc(14px + 0.5vw);
     font-family: 'Oswald', sans-serif;
     color: white;
