@@ -41,6 +41,7 @@
     height: 40vh;
     border-radius: 5px;
     box-shadow: 10px 10px 10px black;
+    background-color: rgba(0, 0, 0, 0.55)
 }
 .infoDivDarker{
     transition: 2s;
@@ -73,7 +74,7 @@
     height: 40vh;
     border-radius: 5px;
     box-shadow: 10px 10px 10px black;
-    background-color: rgba(0, 0, 0, 0.328);
+    background-color: rgba(0, 0, 0, 0.446);
 }
 .infoDivToolsDarker{
     transition: 2s;
