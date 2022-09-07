@@ -1,7 +1,19 @@
+import { useState } from "react";
 import Intro from "../intro/Intro";
 import Styles from "./aboutMe.module.css";
 
 const AboutMe = () => {
+  const [education, setEducation] = useState(false);
+  const [work, setWork] = useState(false);
+
+  const workExperinceOnClick = () => {
+    setWork(!work);
+    setEducation(false);
+  };
+  const educationOnClick = () => {
+    setWork(false);
+    setEducation(!education);
+  };
   return (
     <div className={Styles.Container}>
       <div>
@@ -27,6 +39,33 @@ const AboutMe = () => {
           Im really hungry to learn and love all different kind of challenges,
           Especially if they keep you awake all night.
         </p>
+        <div className={Styles.linkDiv}>
+          <p onClick={() => educationOnClick()} className={Styles.linkText}>
+            My Education
+          </p>
+          <p onClick={() => workExperinceOnClick()} className={Styles.linkText}>
+            Work Experience
+          </p>
+        </div>
+        {education ? (
+          <p className={Styles.linkToogleText}>
+            Front end devloper at CME: 2021 - present <br /> Sommelier step 1
+            and 2 at vinkällan: 2020 <br /> Certified rescue diver: 2018 <br />
+            Lumpen: 2009-2010 <br /> Intersnhip at Bear 'n' stearns: 2008
+            <br /> HighSchool diploma: Fryhyset KunskapCentrum (Sam/Sam)
+            2004-2007{" "}
+          </p>
+        ) : null}
+        {work ? (
+          <p className={Styles.linkToogleText}>
+            Resatuarnt Bleck: Manager 2017-2021 <br />
+            Sjöfartshotellet Scandic: Manager 2016-2017 <br />
+            Malmen by Scandic: Head bartender 2014-2017 <br />
+            Gården by stureplansgruppen: bartender 2016 <br />
+            Ladame noire: bartender 2015 <br />
+            Mosebacke: bartender 2013-2015
+          </p>
+        ) : null}
         <hr className={Styles.hr} />
         <h3 className={Styles.title}>Peronal Me:</h3>
         <p className={Styles.text}>

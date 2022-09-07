@@ -29,8 +29,6 @@
 .textContainer{
     margin-top: 2vh;
     margin-right: 2vw;
-
-
 }
 .text{
     border-radius: 5px;
@@ -39,11 +37,35 @@
 .mySkillz{
     color: white;
     font-family: 'Oswald', sans-serif;
+
 }
 .hr{
- margin-right: 2vw;
- margin-left: 2vw;
- margin-top: 2vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+.linkDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+    gap:3vw;
+
+}
+.linkText{
+    color: white;
+    text-decoration: underline purple;
+    cursor: pointer;
+    font-size: calc(12px + 0.5vw);
+}
+.linkToogleText{
+    background-color: black;
+    border:  1px solid white;
+    margin-top: 2vh;
+    padding: 2vw;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 @keyframes shadow {

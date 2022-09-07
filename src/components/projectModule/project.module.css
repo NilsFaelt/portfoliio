@@ -4,6 +4,7 @@
     margin-top: 5vh;
     width: 90vw;
     height: 80vh;
+    padding-top: 7vh;
     border-radius: 5px;
     animation: shadow;
     animation-duration: 3s;
@@ -16,16 +17,14 @@
     border-radius: 5px;
     margin-top: 7vh;
     box-shadow: 10px 10px 10px black;
-
 }
+
 .textInfo{
-    font-size: calc(8px + 0.3vw);
     font-family: 'Oswald', sans-serif;
     color: white;
     margin: 1vw;
 }
 .text{
-    font-size: calc(8px + 0.5vw);
     font-family: 'Oswald', sans-serif;
     color: white;
 }
@@ -38,7 +37,7 @@
 }
 
 .infoDiv{
- margin-top: 2vh;
+    font-size: calc(8px + 0.3vw);
     transition: 2s;
     position: relative;
     bottom: 60vh;
@@ -50,18 +49,19 @@
     background-color: rgba(0, 0, 0, 0.55)
 }
 .infoDivDarker{
+    padding-top: 5vh;
+    font-size: calc(10px + 0.5vw);
     transition: 2s;
     position: relative;
-    bottom: 60vh;
-    left: 10vw;
-    width: 25vw;
-    height: 40vh;
+    bottom: 50vh;
+    left: 20vw;
+    width: 40vw;
+    height: 55vh;
     border-radius: 5px;
     box-shadow: 10px 10px 10px black;
-    background-color: rgba(0, 0, 0, 0.781)
+    background-color: rgb(0, 0, 0)
 }
 .infoTitle{
-
     font-size: calc(14px + 0.5vw);
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -69,32 +69,35 @@
     margin-bottom: 2vh;
 }
 .infoDivTools{
+    font-size: calc(8px + 0.5vw);
     transition: 2s;
     display: flex;
     flex-direction: column;
     position: relative;
     z-index: 2;
     bottom: 100vh;
-    left: 60vw;
     width: 25vw;
     height: 40vh;
+    left: 55vw;
     border-radius: 5px;
     box-shadow: 10px 10px 10px black;
     background-color: rgba(0, 0, 0, 0.446);
 }
 .infoDivToolsDarker{
+    font-size: calc(10px + 0.5vw);
     transition: 2s;
     display: flex;
     flex-direction: column;
     position: relative;
     z-index: 2;
     bottom: 100vh;
-    left: 60vw;
-    width: 25vw;
-    height: 40vh;
+    left: 40vw;
+    width: 40vw;
+    height: 55vh;
     border-radius: 5px;
+    padding-top: 5vh;
     box-shadow: 10px 10px 10px black;
-    background-color: rgba(0, 0, 0, 0.861);
+    background-color: rgb(0, 0, 0);
 }
 
 

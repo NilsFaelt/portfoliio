@@ -23,7 +23,9 @@ function App() {
           furrency={furrency}
           link={"https://cheery-kleicha-7c214f.netlify.app/"}
           title={"Furrency"}
-          info={"This is a fictional currency exchange:"}
+          info={
+            "This is a fictional currency exchange, were you can create your own travel insuarnce and exchange currecny. The site is currently under construction, but try it out anyway."
+          }
           workedWith={[
             "Javascriot",
             "Typescript",
@@ -40,7 +42,7 @@ function App() {
           furrency={theDorker}
           link={"https://melodious-speculoos-2fc810.netlify.app/"}
           title={"The New Dorker"}
-          info={`This is a fictional news site, the purpose is tom mimic sites as the-new-york-time or the daily mail. All the annoying pop-ups is made with pirpose to make it feel like a free news-site filled with commericial`}
+          info={`This is a fictional news site, the purpose is tom mimic sites as the-new-york-times or the daily mail. All the annoying pop-ups is made with purpose to make it feel like a free news-site filled with commericial`}
           workedWith={[
             "Javascriot",
             "Typescript",

@@ -19,6 +19,7 @@ const Project: React.FC<Props> = ({
   const [zIndexImg, setZIndexImg] = useState("0");
   const [toogleInfo, setToogleInfo] = useState(true);
   const [toogleTools, setToogleTools] = useState(true);
+
   return (
     <div className={Styles.container}>
       <h3 className={Styles.title}>{title}</h3>
@@ -50,7 +51,7 @@ const Project: React.FC<Props> = ({
           toogleTools ? Styles.infoDivTools : Styles.infoDivToolsDarker
         }
       >
-        <h4 className={Styles.infoTitle}>Tools:</h4>
+        <h4 className={Styles.infoTitle}>Tools/Languuages:</h4>
         {workedWith?.map((text) => (
           <p className={Styles.text}>{text}</p>
         ))}
