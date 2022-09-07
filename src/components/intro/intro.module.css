@@ -29,12 +29,19 @@
     font-size: calc(12px + 0.5vw);
     font-family: 'Oswald', sans-serif;
 }
-.logo{
+.logoReact{
     margin-top: 2vh;
     animation: spin;
     animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
+}
+.logoReact:hover{
+    width: 40vw;
+    position: absolute;
+    left: 5vw;
+    top: 10vh;
+
 }
 
 

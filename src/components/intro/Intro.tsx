@@ -9,7 +9,7 @@ const Intro = () => {
         <p className={Styles.text}>
           Im a front end developer Specialized in React
         </p>
-        <img className={Styles.logo} src={reactLogo} alt='' />
+        <img className={Styles.logoReact} src={reactLogo} alt='' />
       </div>
     </div>
   );
