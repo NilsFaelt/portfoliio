@@ -34,12 +34,11 @@ const AboutMe = () => {
           then moved Sthlm at age of 16 to go to high-school. <br />
           Then i went to Lumpen before i started my career as a bartender in
           Sthlm, and for the 5 most recent year bofore i started my studying to
-          become a Front End Developer i were in manegr with 30 people working
-          with me at a restaurant called Bleck. Ive been travleing my entire
-          life and learned different skillz, like becomeing a sommeiler, a
-          rescue diver, i learned to master a guitar and became a really good
-          skateborder. Im super social and have a huge working moral, i do my
-          part, no question.
+          become a Front End Developer i were aneger with 30 people working with
+          me at a restaurant called Bleck. Ive been travleing my entire life and
+          learned different skillz, like becomeing a sommeiler, a rescue diver,
+          i learned to master a guitar and became a really good skateborder. Im
+          super social and have a huge working moral, i do my part, no question.
         </p>
         <hr className={Styles.hr} />
         <h3 className={Styles.title}>If?</h3>

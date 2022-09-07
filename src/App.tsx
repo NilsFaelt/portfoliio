@@ -5,6 +5,7 @@ import AboutMe from "./components/aboutMe/AboutMe";
 import NavBar from "./components/navBar/NavBar";
 import Project from "./components/projectModule/Project";
 import furrency from "./assets/img/Furrency.png";
+import theDorker from "./assets/img/TheDorker.png";
 
 function App() {
   const [toogleAbouteMe, setToogleAbouteMe] = useState<boolean>(true);
@@ -26,11 +27,28 @@ function App() {
           workedWith={[
             "Javascriot",
             "Typescript",
-            "redux",
+            "Redux",
             "Axios",
             "HeroIcons",
             "Material-ui",
             "UUID",
+          ]}
+        />
+      ) : null}
+      {toogleProjects ? (
+        <Project
+          furrency={theDorker}
+          link={"https://melodious-speculoos-2fc810.netlify.app/"}
+          title={"The New Dorker"}
+          info={
+            "This is a fictional news site, the purpose is tom mimic the-new-york-time/the daily mail ish."
+          }
+          workedWith={[
+            "Javascriot",
+            "Typescript",
+            "Axios",
+            "HeroIcons",
+            "Material-ui",
           ]}
         />
       ) : null}
