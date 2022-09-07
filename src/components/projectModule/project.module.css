@@ -99,7 +99,10 @@
     box-shadow: 10px 10px 10px black;
     background-color: rgb(0, 0, 0);
 }
-
+.githubLink{
+    color: white;
+    text-decoration: underline purple 1px;
+}
 
 
 @keyframes shadow {

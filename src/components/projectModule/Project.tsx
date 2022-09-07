@@ -7,6 +7,7 @@ interface Props {
   title: string;
   workedWith: string[];
   info: string;
+  githubLink: string;
 }
 
 const Project: React.FC<Props> = ({
@@ -15,6 +16,7 @@ const Project: React.FC<Props> = ({
   title,
   workedWith,
   info,
+  githubLink,
 }) => {
   const [zIndexImg, setZIndexImg] = useState("0");
   const [toogleInfo, setToogleInfo] = useState(true);
@@ -43,6 +45,10 @@ const Project: React.FC<Props> = ({
       >
         <h4 className={Styles.infoTitle}>Info:</h4>
         <p className={Styles.textInfo}>{info}</p>
+
+        <a className={Styles.githubLink} target='_blank' href={githubLink}>
+          Github Link
+        </a>
       </div>
       <div
         onMouseOver={() => setToogleTools(false)}

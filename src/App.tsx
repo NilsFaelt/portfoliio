@@ -6,6 +6,7 @@ import NavBar from "./components/navBar/NavBar";
 import Project from "./components/projectModule/Project";
 import furrency from "./assets/img/Furrency.png";
 import theDorker from "./assets/img/TheDorker.png";
+import Bbanshee from "./assets/img/Banshee.png";
 
 function App() {
   const [toogleAbouteMe, setToogleAbouteMe] = useState<boolean>(true);
@@ -20,6 +21,7 @@ function App() {
       {toogleAbouteMe ? <AboutMe /> : null}
       {toogleProjects ? (
         <Project
+          githubLink={"https://github.com/NilsFaelt/Furrency"}
           furrency={furrency}
           link={"https://cheery-kleicha-7c214f.netlify.app/"}
           title={"Furrency"}
@@ -39,6 +41,7 @@ function App() {
       ) : null}
       {toogleProjects ? (
         <Project
+          githubLink={"https://github.com/NilsFaelt/the_new_dorker"}
           furrency={theDorker}
           link={"https://melodious-speculoos-2fc810.netlify.app/"}
           title={"The New Dorker"}
@@ -52,6 +55,16 @@ function App() {
             "Firebase",
             "Email-js",
           ]}
+        />
+      ) : null}
+      {toogleProjects ? (
+        <Project
+          githubLink={"https://github.com/NilsFaelt/banshee"}
+          furrency={Bbanshee}
+          link={"https://celadon-florentine-4ddc9c.netlify.app/buttons"}
+          title={"Banshee"}
+          info={`Dont ask, this site is just me playing around with whatever i felt like at the moment. Its currently paused, when i will finnish is uncertain`}
+          workedWith={["Javascriot", "Axios", "HeroIcons", "Firebase", "Css"]}
         />
       ) : null}
     </div>

@@ -63,7 +63,7 @@ const AboutMe = () => {
             Malmen by Scandic: Head bartender 2014-2017 <br />
             Gården by stureplansgruppen: bartender 2016 <br />
             Ladame noire: bartender 2015 <br />
-            Mosebacke: bartender 2013-2015
+            Mosebacke: bartender 2012-2015
           </p>
         ) : null}
         <hr className={Styles.hr} />
