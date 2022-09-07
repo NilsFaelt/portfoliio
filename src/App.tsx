@@ -61,7 +61,7 @@ function App() {
         <Project
           githubLink={"https://github.com/NilsFaelt/banshee"}
           furrency={Bbanshee}
-          link={"https://celadon-florentine-4ddc9c.netlify.app/buttons"}
+          link={"https://celadon-florentine-4ddc9c.netlify.app/"}
           title={"Banshee"}
           info={`Dont ask, this site is just me playing around with whatever i felt like at the moment. Its currently paused, when i will finnish is uncertain`}
           workedWith={["Javascriot", "Axios", "HeroIcons", "Firebase", "Css"]}
