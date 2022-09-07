@@ -45,7 +45,7 @@ function App() {
           furrency={theDorker}
           link={"https://melodious-speculoos-2fc810.netlify.app/"}
           title={"The New Dorker"}
-          info={`This is a fictional news site, the purpose is tom mimic sites as the-new-york-times or the daily mail. All the annoying pop-ups is made with purpose to make it feel like a free news-site filled with commericial`}
+          info={`This is a fictional news site, the purpose is tom mimic sites as the-new-york-times or the daily mail. All the annoying pop-ups is made with purpose to make it feel like a free news-site filled with commericial. You need to create a account to be able to use site, once its setup you can login whenever you want. `}
           workedWith={[
             "Javascriot",
             "Typescript",
