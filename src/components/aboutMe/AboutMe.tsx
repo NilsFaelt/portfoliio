@@ -54,8 +54,8 @@ const AboutMe = () => {
           Sweden. <br /> Im a super positive person and love the social part as
           much as i love programing, especially Javascript and React,
           <br />. I love the challenge and freedom that programing gives you,
-          also the endless opurtunities, your imagination is the only thing that
-          sets the limit of what you can do. <br />
+          also the endless opportunities, your imagination is the only thing
+          that sets the limit of what you can do. <br />
           Im really hungry to learn and love all different kind of challenges,
           Especially if they keep you awake all night. If you serve me a problem
           or task i will put my heart and soul into it.
