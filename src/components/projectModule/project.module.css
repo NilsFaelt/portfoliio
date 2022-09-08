@@ -53,7 +53,9 @@ img:hover{
     height: 40vh;
     border-radius: 5px;
     box-shadow: 10px 10px 10px black;
-    background-color: rgba(0, 0, 0, 0.254)
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 5vh;
+    
 }
 .infoDivDarker{
     padding-top: 5vh;
@@ -82,8 +84,9 @@ img:hover{
     flex-direction: column;
     position: relative;
     z-index: 2;
-    bottom: 100vh;
+    bottom: 105vh;
     width: 25vw;
+    padding-top: 5vh;
     height: 40vh;
     left: 55vw;
     border-radius: 5px;

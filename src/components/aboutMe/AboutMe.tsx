@@ -68,9 +68,9 @@ const AboutMe = () => {
           then i moved to Sthlm at the age of 16 to go to high-school. <br />
           After that went to Lumpen to become a sailor, before i started my
           career as a bartender in Sthlm, and for the 5 most recent years bofore
-          i started my studying to become a Front End Developer i were a maneger
+          i started my studying to become a Front End Developer i were a manager
           with 30 people working with me at a restaurant called Bleck. Ive been
-          travleing my entire life and learned different skillz, like becomeing
+          traveling my entire life and learned different skillz, like becomeing
           a sommeiler, a rescue diver, i learned to master a guitar and became a
           really good skateborder. Im super social and have a huge working
           moral.
