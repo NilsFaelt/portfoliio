@@ -80,3 +80,19 @@
     0%{box-shadow: 0px 0px 0px black; background-color: rgba(0, 0, 0, 0); opacity: 0;}
     100%{box-shadow: 10px 10px 10px black;    background-color: rgba(0, 0, 0, 0.627); opacity: 1;}
   }
+
+  @media only screen and (max-width: 900px) {
+    .Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2vw;
+    }
+    .textWhyReact{
+        font-size: calc(8px + 0.5vw);
+        color: white;
+        width: auto
+     
+    }
+  }

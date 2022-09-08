@@ -53,7 +53,7 @@ img:hover{
     height: 40vh;
     border-radius: 5px;
     box-shadow: 10px 10px 10px black;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.134);
     padding-top: 5vh;
     
 }
@@ -91,6 +91,7 @@ img:hover{
     left: 55vw;
     border-radius: 5px;
     box-shadow: 10px 10px 10px black;
+    background-color: rgba(0, 0, 0, 0.182);
 }
 .infoDivToolsDarker{
     font-size: calc(10px + 0.5vw);
