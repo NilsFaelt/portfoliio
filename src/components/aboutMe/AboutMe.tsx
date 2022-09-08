@@ -26,6 +26,26 @@ const AboutMe = () => {
         <p className={Styles.mySkillz}>Redux</p>
         <p className={Styles.mySkillz}>Vanilla Css</p>
         <h3 className={Styles.title}>Why i prefer React?</h3>
+        <p className={Styles.textWhyReact}>
+          Its hard to describe but when you learn to navigate in React it is a
+          hallelujha moment, evrything is so work efficient an smooth. But what
+          makes it a technical wonderchild, is that u can reuse your components
+          infinte times, For example under projects i built each module for
+          presenting my projects, then reuses them evrytime a get a new project.{" "}
+          <br />
+          One more superpower React has in its pocket it that it only update the
+          changes that acctualy happens instead of rerendering the entire dom
+          element, so if you only make a 2% change in your component you dont
+          have to rerender the entire component, just the 2%, which makes the
+          experince so much more smooth for the user. <br /> Is there any
+          backsides with React? Yes, but nothing that makes it not worth using.
+          But the main problem developers hav with React is that you only pass
+          things down, like a waterfall, so if you dont plan your code or using
+          a store you can find yourself in problem. But if you just learn to
+          navigate in React that will not be a problem, or learn to use Redux or
+          Recoil wich helps you store youre data on the side, and lets you get
+          it whenever you need.
+        </p>
       </div>
       <div className={Styles.textContainer}>
         <h3 className={Styles.title}>About Me:</h3>
