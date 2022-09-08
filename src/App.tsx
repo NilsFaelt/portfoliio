@@ -26,7 +26,7 @@ function App() {
           link={"https://cheery-kleicha-7c214f.netlify.app/"}
           title={"Furrency"}
           info={
-            "This is a fictional currency exchange, were you can create your own travel insuarnce and exchange currecny. The site is currently under construction, but please try it out anyway."
+            "This is a fictional currency exchange, were you can create your own travel insuarnce or exchange currecny. The site is currently under construction, but please try it out anyway. The styleing of the page is written in vanilla css but with the buttons from material-ui."
           }
           workedWith={[
             "Javascriot",
@@ -45,7 +45,7 @@ function App() {
           furrency={theDorker}
           link={"https://melodious-speculoos-2fc810.netlify.app/"}
           title={"The New Dorker"}
-          info={`This is a fictional news site, the purpose is tom mimic sites as the-new-york-times or the daily mail. All the annoying pop-ups is made with purpose to make it feel like a free news-site filled with commericial. You need to create a account to be able to use site, once its setup you can login whenever you want. `}
+          info={`This is a fictional news site, the purpose is tom mimic sites as the-new-york-times or the daily mail. All the annoying pop-ups is made with purpose to make it feel like a free news-site filled with commericial. You need to create a account to be able to use site, once its setup you can login whenever you want. The styleing is written in vanilla css. `}
           workedWith={[
             "Javascriot",
             "Typescript",
@@ -63,7 +63,7 @@ function App() {
           furrency={Bbanshee}
           link={"https://celadon-florentine-4ddc9c.netlify.app/"}
           title={"Banshee"}
-          info={`Dont ask, this site is just me playing around with whatever i felt like at the moment. Its currently paused, when i will finnish is uncertain`}
+          info={`Dont ask!! this site is just me playing around with whatever i felt like at the moment. Its currently paused due to lack of inspiration, but when i feel like playing around again i will probably get back there. The styleing is written in vanilla css. Try to send a mail on the site, and use the burger menu, its pretty neet.`}
           workedWith={["Javascriot", "Axios", "HeroIcons", "Firebase", "Css"]}
         />
       ) : null}

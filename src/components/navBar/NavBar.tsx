@@ -23,7 +23,10 @@ const NavBar: React.FC<Props> = ({ setToogleAbouteMe, setToogleProjects }) => {
         <li onClick={() => projectsToogle()} className={Styles.li}>
           Projects
         </li>
-        <a href='mailto:nilsfaelt@gmail.com' className={Styles.li}>
+        <a
+          href='mailto:nils.faelt@gmail.com?&body=Hello please send me a mail and i get back to you as soon as posible, please feel free to call if urgent: 0760768660'
+          className={Styles.li}
+        >
           Contact
         </a>
       </ul>
