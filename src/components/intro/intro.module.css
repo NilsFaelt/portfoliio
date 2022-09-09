@@ -37,10 +37,10 @@
     animation-timing-function: linear; 
 }
 .logoReact:hover{
-    width: 40vw;
-    position: absolute;
-    left: 5vw;
-    top: 10vh;
+    margin-top: 2vh;
+    animation: grow;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 
 }
 
@@ -48,6 +48,10 @@
 @keyframes spin {
     from{transform: rotate(0deg)}
     to{transform: rotate(360deg)}
+  }
+@keyframes grow {
+    0%{width: 5vw; transform: rotate(0deg);}
+    100%{width: 20vw;  transform: rotate(360deg)}
   }
 @keyframes shadow {
     0%{box-shadow: 0px 0px 0px black; background-color: rgba(0, 0, 0, 0); opacity: 0;}
