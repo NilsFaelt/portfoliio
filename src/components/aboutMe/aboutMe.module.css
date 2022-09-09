@@ -79,6 +79,15 @@
     padding-left: 2vw;
     margin-top: 5vh;
 }
+.linkedinLogo{
+    margin-top: 5vh;
+    width: clamp(30px, 5vw, 5vw);
+}
+.linkedinLogo:hover{
+    margin-top: 5vh;
+    width: clamp(30px, 5vw, 5vw);
+    cursor: pointer;
+}
 
 @keyframes shadow {
     0%{box-shadow: 0px 0px 0px black; background-color: rgba(0, 0, 0, 0); opacity: 0;}

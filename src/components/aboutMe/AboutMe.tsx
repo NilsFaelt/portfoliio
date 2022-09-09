@@ -1,6 +1,9 @@
 import { useState } from "react";
 import Intro from "../intro/Intro";
 import Styles from "./aboutMe.module.css";
+import linkedin from "../../assets/img/linkedin.png";
+import github from "../../assets/img/github.png";
+import netlify from "../../assets/img/netlify.svg";
 
 const AboutMe = () => {
   const [education, setEducation] = useState(true);
@@ -46,6 +49,23 @@ const AboutMe = () => {
           Recoil wich helps you store youre data on the side, and lets you get
           it whenever you need.
         </p>
+        <div>
+          <a
+            href='https://www.linkedin.com/in/nils-faelt-73b163227/'
+            target='_blank'
+          >
+            <img className={Styles.linkedinLogo} src={linkedin} alt='' />
+          </a>
+          <a href='https://github.com/NilsFaelt' target='_blank'>
+            <img className={Styles.linkedinLogo} src={github} alt='' />
+          </a>
+          <a
+            href='https://app.netlify.com/teams/nilsfaelt/overview?_ga=2.215031006.85119360.1662299098-661044567.1655653906&_gac=1.84992491.1660742449.CjwKCAjwo_KXBhAaEiwA2RZ8hGWD84ylj1oM5kzVah-oeCO6F_eMX1dxRwgIqBkybbAwprS-8zy6ABoCnvMQAvD_BwE&_gl=1%2A47bag1%2A_gcl_aw%2AR0NMLjE2NjA3NDI0NDkuQ2p3S0NBandvX0tYQmhBYUVpd0EyUlo4aEdXRDg0eWxqMW9NNWt6VmFoLW9lQ082Rl9lTVgxZHhSd2dJcUJreWJiQXdwclMtOHp5NkFCb0Nudk1RQXZEX0J3RQ..'
+            target='_blank'
+          >
+            <img className={Styles.linkedinLogo} src={netlify} alt='' />
+          </a>
+        </div>
       </div>
       <div className={Styles.textContainer}>
         <h3 className={Styles.title}>About Me:</h3>
