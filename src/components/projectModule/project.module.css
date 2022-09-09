@@ -27,12 +27,11 @@ img:hover{
 
 .textInfo{
     margin-top: 10vh;
-    /* font-family: 'Oswald', sans-serif; */
     color: white;
     margin: 1vw;
 }
 .text{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     color: white;
 }
 .title{
@@ -44,6 +43,7 @@ img:hover{
 }
 
 .infoDiv{
+    font-family: 'DM Serif Display', serif;
     font-size: calc(8px + 0.3vw);
     transition: 2s;
     position: relative;
@@ -58,6 +58,7 @@ img:hover{
     
 }
 .infoDivDarker{
+    font-family: 'DM Serif Display', serif;
     padding-top: 5vh;
     font-size: calc(10px + 0.5vw);
     transition: 2s;
@@ -78,6 +79,7 @@ img:hover{
     margin-bottom: 2vh;
 }
 .infoDivTools{
+    font-family: 'Orbitron', sans-serif;
     font-size: calc(8px + 0.5vw);
     transition: 2s;
     display: flex;
@@ -92,8 +94,10 @@ img:hover{
     border-radius: 5px;
     box-shadow: 10px 10px 10px black;
     background-color: rgba(0, 0, 0, 0.182);
+
 }
 .infoDivToolsDarker{
+    font-family: 'Orbitron', sans-serif;
     font-size: calc(10px + 0.5vw);
     transition: 2s;
     display: flex;
@@ -110,8 +114,9 @@ img:hover{
     background-color: rgba(0, 0, 0, 0.857);
 }
 .githubLink{
+    font-family: 'Orbitron', sans-serif;
     color: white;
-    text-decoration: underline purple 1px;
+    text-decoration: underline purple 2px;
 }
 .linkDiv{
     margin-top: 5vh;
@@ -129,6 +134,13 @@ img:hover{
   @media only screen and (max-width: 1150px) {
     .container{
         height: 60vh;
+    }
+    .infoTitle{
+        font-size: calc(14px + 0.5vw);
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-decoration:2px underline yellow;
+        margin-bottom: 2vh;
     }
     .infoDivTools{
         font-size: calc(6px + 0.3vw);
@@ -154,4 +166,4 @@ img:hover{
         height: 35vh;
         left: 10vw;
     }
-}
+  }

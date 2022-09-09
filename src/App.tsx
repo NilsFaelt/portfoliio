@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import AboutMe from "./components/aboutMe/AboutMe";
 import NavBar from "./components/navBar/NavBar";
@@ -7,7 +6,6 @@ import Project from "./components/projectModule/Project";
 import furrency from "./assets/img/Furrency.png";
 import theDorker from "./assets/img/TheDorker.png";
 import Bbanshee from "./assets/img/Banshee.png";
-import TheVerge from "./assets/img/TheVerge.png";
 
 function App() {
   const [toogleAbouteMe, setToogleAbouteMe] = useState<boolean>(true);
@@ -75,16 +73,6 @@ function App() {
             "Firebase",
             "Css",
           ]}
-        />
-      ) : null}
-      {toogleProjects ? (
-        <Project
-          githubLink={"https://github.com/NilsFaelt/The_verge"}
-          furrency={TheVerge}
-          link={"https://tangerine-torte-e3a695.netlify.app/"}
-          title={"The Verge"}
-          info={`This site is only for the looks, how a webshop can look, some super simple logic, but 95% design inspiration.`}
-          workedWith={["Javascript", "React", "Css"]}
         />
       ) : null}
     </div>
