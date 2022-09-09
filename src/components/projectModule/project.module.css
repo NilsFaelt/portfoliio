@@ -167,3 +167,71 @@ img:hover{
         left: 10vw;
     }
   }
+
+
+  @media only screen and (max-width: 720px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding-top: 1vh;
+    }
+    .infoTitle{
+        font-size: calc(14px + 0.5vw);
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-decoration:2px underline yellow;
+        margin-bottom: 2vh;
+
+    }
+    .infoDivTools{
+        position:initial;
+        font-size: calc(6px + 0.3vw);
+        width: 70vw;
+        height: auto;
+        margin-bottom: 2vh;
+        padding-bottom: 2vh;
+        padding-top: 1vh;
+    }
+    .infoDiv{
+        padding-top: 1vh;
+        position:initial;
+        font-size: calc(6px + 0.2vw);
+        width: 70vw;
+        height: auto;
+        margin-bottom: 2vh;
+        padding-bottom: 2vh;
+        left: 5vw;
+    }
+    .infoDivToolsDarker{
+        position:initial;
+        font-size: calc(8px + 0.4vw);
+        height: auto;
+        width: 80vw;
+        padding: 5vw;
+    }
+    .infoDivDarker{
+        position:initial;
+        font-size: calc(8px + 0.5vw);
+        bottom: 45vh;
+        height: auto;
+        width: 80vw;
+        left: 10vw;
+        padding: 5vw;
+    }
+    .img{
+        position:initial;
+        transition: 2s;
+        width: 70vw;
+        border-radius: 5px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        box-shadow: 10px 10px 10px black;
+    }
+    img:hover{
+        width: 80vw;
+    }
+    
+  }
