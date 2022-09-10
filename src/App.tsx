@@ -6,16 +6,19 @@ import Project from "./components/projectModule/Project";
 import furrency from "./assets/img/Furrency.png";
 import theDorker from "./assets/img/TheDorker.png";
 import Bbanshee from "./assets/img/Banshee.png";
+import Videos from "./components/vidoes/Videos";
 
 function App() {
   const [toogleAbouteMe, setToogleAbouteMe] = useState<boolean>(true);
   const [toogleProjects, setToogleProjects] = useState<boolean>(false);
+  const [toogleVideos, setToogleVideos] = useState<boolean>(false);
 
   return (
     <div className='App'>
       <NavBar
         setToogleAbouteMe={setToogleAbouteMe}
         setToogleProjects={setToogleProjects}
+        setToogleVideos={setToogleVideos}
       />
       {toogleAbouteMe ? <AboutMe /> : null}
       {toogleProjects ? (
@@ -75,6 +78,7 @@ function App() {
           ]}
         />
       ) : null}
+      {toogleVideos ? <Videos /> : null}
     </div>
   );
 }

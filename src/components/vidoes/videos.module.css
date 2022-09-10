@@ -1,0 +1,29 @@
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap:3vw;
+        margin: 0 auto;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        height: auto;
+        padding-bottom: 15vh;
+        width: 90vw;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px;
+        background-color: rgba(0, 0, 0, 0.722);
+        text-align: center;
+        animation: shadow;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    
+    }
+
+
+
+    @keyframes shadow {
+        0%{box-shadow: 0px 0px 0px black; background-color: rgba(0, 0, 0, 0); opacity: 0;}
+        100%{box-shadow: 10px 10px 10px black;    background-color: rgb(0, 0, 0); opacity: 1;}
+      }
+    
