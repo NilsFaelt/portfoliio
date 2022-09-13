@@ -6,7 +6,7 @@
     margin-bottom: 5vh;
     margin-top: 5vh;
     height: auto;
-    padding-bottom: 15vh;
+    padding-bottom: 5vh;
     width: 90vw;
     border-radius: 5px;
     box-shadow: 10px 10px 10px;
@@ -27,9 +27,14 @@
     margin-bottom: 2vh;
 }
 .textContainer{
+    font-size: calc(8px + 0.5vw);
     font-family: 'Cormorant Garamond', serif;
-    margin-top: 2vh;
-    margin-right: 2vw;
+    margin: 2vw;
+    margin-top: 1.8vh;
+    background-color: rgba(0, 0, 0, 0.565);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    padding: 2vw;
 }
 .text{
     font-family: 'DM Serif Display', serif;
@@ -64,8 +69,6 @@
 .linkToogleText{
     transition: 2s;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.676);
-    border:  1px solid white;
     margin-top: 4vh;
     padding: 2vw;
     color: white;
@@ -77,6 +80,7 @@
     width: 30vw;
     padding-left: 2vw;
     margin-top: 5vh;
+
 }
 .linkedinLogo{
     margin-top: 5vh;
