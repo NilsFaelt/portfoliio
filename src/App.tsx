@@ -28,7 +28,7 @@ function App() {
           link={"https://cheery-kleicha-7c214f.netlify.app/"}
           title={"Furrency"}
           info={
-            "This is a fictional currency exchange, were you can create your own travel insuarnce or exchange currecny. The site is currently under construction, but please try it out anyway. The styleing of the page is written in vanilla css but with the buttons from material-ui."
+            "This is a fictional currency exchange, were you can create your own travel insuarnce or exchange currency. The site is currently under construction, but please try it out anyway. The styleing of the page is written in vanilla css but with the buttons from material-ui."
           }
           workedWith={[
             "Javascriot",

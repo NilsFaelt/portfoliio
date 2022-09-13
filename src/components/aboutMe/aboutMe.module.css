@@ -27,7 +27,7 @@
     margin-bottom: 2vh;
 }
 .textContainer{
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     margin-top: 2vh;
     margin-right: 2vw;
 }
@@ -72,7 +72,6 @@
     font-family: 'Oswald', sans-serif;
 }
 .textWhyReact{
-
     font-size: calc(8px + 0.5vw);
     color: white;
     width: 30vw;
