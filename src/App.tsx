@@ -6,6 +6,7 @@ import Project from "./components/projectModule/Project";
 import furrency from "./assets/img/Furrency.png";
 import theDorker from "./assets/img/TheDorker.png";
 import Bbanshee from "./assets/img/Banshee.png";
+import BrewMe from "./assets/img/BrewMe.png";
 import Videos from "./components/vidoes/Videos";
 
 function App() {
@@ -21,6 +22,24 @@ function App() {
         setToogleVideos={setToogleVideos}
       />
       {toogleAbouteMe ? <AboutMe /> : null}
+      {toogleProjects ? (
+        <Project
+          githubLink={"https://github.com/NilsFaelt/brewMe"}
+          furrency={BrewMe}
+          link={"https://exquisite-speculoos-4ac8cf.netlify.app/"}
+          title={"BrewMe"}
+          info={`This is somekind of find yor brewery, add brewery you like to visit, check of your brewery, inspiration for breweries and so on.
+          Its written mobile first css, just in the begining of the project but check it out, updates comes daily.`}
+          workedWith={[
+            "Javascript",
+            "React",
+            "Typescript",
+            "Css",
+            "Axios",
+            "Redux",
+          ]}
+        />
+      ) : null}
       {toogleProjects ? (
         <Project
           githubLink={"https://github.com/NilsFaelt/Furrency"}
@@ -78,6 +97,7 @@ function App() {
           ]}
         />
       ) : null}
+
       {toogleVideos ? <Videos /> : null}
     </div>
   );
