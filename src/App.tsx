@@ -28,7 +28,7 @@ function App() {
           furrency={BrewMe}
           link={"https://exquisite-speculoos-4ac8cf.netlify.app/"}
           title={"BrewMe"}
-          info={`This is somekind of find yor brewery app were you cab add brewery to your page, check of your brewery, inspiration for breweries and so on.
+          info={`This is somekind of find yor brewery app were you can add breweries to your page, check of your brewery, inspiration for breweries and so on.
           Its written mobile first css.
            Im just in the begining of the project but check it out, updates comes daily.`}
           workedWith={[
