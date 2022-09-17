@@ -6,6 +6,7 @@ import Project from "./components/projectModule/Project";
 import furrency from "./assets/img/Furrency.png";
 import theDorker from "./assets/img/TheDorker.png";
 import Bbanshee from "./assets/img/Banshee.png";
+import Skeidar from "./assets/img/Skeidar.png";
 import BrewMe from "./assets/img/BrewMe.png";
 import Videos from "./components/vidoes/Videos";
 
@@ -25,7 +26,7 @@ function App() {
       {toogleProjects ? (
         <Project
           githubLink={"https://github.com/NilsFaelt/skediar"}
-          furrency={BrewMe}
+          furrency={Skeidar}
           link={"https://tubular-monstera-9d7aeb.netlify.app/"}
           title={"Skeidar"}
           info={`This project is just a replica of a landing page that already exsist, https://www.skeidar.no/ i did just for learing how to follow someoneelses design.
