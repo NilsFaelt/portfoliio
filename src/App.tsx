@@ -24,6 +24,17 @@ function App() {
       {toogleAbouteMe ? <AboutMe /> : null}
       {toogleProjects ? (
         <Project
+          githubLink={"https://github.com/NilsFaelt/skediar"}
+          furrency={BrewMe}
+          link={"https://tubular-monstera-9d7aeb.netlify.app/"}
+          title={"Skeidar"}
+          info={`This project is just a replica of a landing page that already exsist, https://www.skeidar.no/ i did just for learing how to follow someoneelses design.
+          Its written in plain css and there is almost no functionality except the img carousel. `}
+          workedWith={["Javascript", "React", "Typescript", "Css"]}
+        />
+      ) : null}
+      {toogleProjects ? (
+        <Project
           githubLink={"https://github.com/NilsFaelt/brewMe"}
           furrency={BrewMe}
           link={"https://exquisite-speculoos-4ac8cf.netlify.app/"}
